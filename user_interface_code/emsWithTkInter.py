@@ -1,11 +1,11 @@
 import tkinter
-import tkinter.messagebox
+import tkinter.messagebox #for message dialogue boxes
 from tkinter import *
 
 import emsBLLWithDataBase
 from emsBLLWithDataBase import *
 
-class Form(Frame):
+class Form(Frame):  # creating a frame class which inherits from built-in Frame class
     def __init__(self,master=None):
 
         super().__init__(master)
